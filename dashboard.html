@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <div class="logo-image">
+                <img src="./logoutsmart.png" alt="">
+            </div>
+            <div class="logo-name">
+                UT Resources
+            </div>
+        </div>
+
+        <div class="menu-items">
+            <ul class="navLinks">
+                <li class="navList active">
+                    <a href="#">
+                        <img src="icon-dashboard-1.png" alt="">
+                        <span class="links">PROGRAMS</span>
+                    </a>
+                </li>
+                <li class="navList">
+                    <a href="#">
+                        <img src="icon-courses-1.png" alt="">
+                        <span class="links">RESOURCES</span>
+                    </a>
+                </li>
+                <li class="navList">
+                    <a href="#">
+                        <img src="icon-comunity-1.png" alt="">
+                        <span class="links">COMMUNITY</span>
+                    </a>
+                </li>
+                <li class="navList">
+                    <a href="#">
+                        <img src="icon-classroom-1.png" alt="">
+                        <span class="links">CLASSROOM</span>
+                    </a>
+                </li>
+                <li class="navList">
+                    <a href="#">
+                        <img src="icon-events-revisi-1.png" alt="">
+                        <span class="links">EVENT</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="bottom-link">
+                <li>
+                    <a href="#">
+                        <ion-icon name="log-out-outline"></ion-icon>
+                        <span class="links">Logout</span>
+                    </a>
+                </li>
+                <li class="mode">
+                    <a href="#">
+                        <ion-icon name="moon-outline"></ion-icon>
+                        <span class="links">Dark Mode</span>
+                        <div class="darkToggle">
+                            <span class="switch"></span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <ion-icon class="navToggle" name="menu-outline"></ion-icon>
+            <div class="searchBox">
+                <ion-icon name="search-outline"></ion-icon>
+                <input type="text" placeholder="Search">
+            </div>
+            <img src="./logoutsmart2.png" alt="">
+        </div>
+        <div class="select-menu">
+            <div class="select-btn">
+                <span class="sBtn-text">All Activities</span>
+                <i class="bx bx-chevron-down"></i>
+            </div>
+
+            <ul class="options">
+                <li class="option">
+                    <span class="option-text">Show All</span>
+                </li>
+                <li class="option">
+                    <span class="option-text">Video</span>
+                </li>
+                <li class="option">
+                    <span class="option-text">Bacaan Populer</span>
+                </li>
+                <li class="option">
+                    <span class="option-text">Jurnal Penelitian</span>
+                </li>
+                <li class="option">
+                    <span class="option-text">Studi Kasus</span>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="overview">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="jurnal.png" alt="">
+                        <p>JURNAL PENELITIAN: VISION BUSSINESS SENSE</p>
+                        <a href="jurnalpage.html" class="btn">Read More</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="video1.png" alt="">
+                        <p>VIDEO: COLLABORATIVE INTELLIGENCE</p>
+                        <a href="https://www.youtube.com/watch?v=AJOW6tXtTTs&t=1s" class="btn">Read More</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="teamwork.png" alt="">
+                        <p>BACAAN POPULER: TEAMWORK</p>
+                        <a href="bacaanpopulerpage.html" class="btn">Read More</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="interpersonalskills.png" alt="">
+                        <p>STUDI KASUS: INTERPERSONAL SKILL</p>
+                        <a href="studikasuspage.html" class="btn">Read More</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="video2.png" alt="">
+                        <p>VIDEO: CREATIVE TINKING TECHNIQUES</p>
+                        <a href="https://www.youtube.com/watch?v=bEusrD8g-dM" class="btn">Read More</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="negotiationskill.png" alt="">
+                        <p>STUDI KASUS: NEGOTIATION SKILL</p>
+                        <a href="studikasuspage2.html" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
